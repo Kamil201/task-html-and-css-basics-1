@@ -15,35 +15,12 @@ body {
 }
 
 img,
-picture,
-video,
-canvas,
 svg {
 	display: block;
 	max-width: 100%;
 }
 
-input,
-button,
-textarea,
-select {
-	font: inherit;
-}
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-	isolation: isolate;
-}
 body {
 	min-height: 100vh;
 }
@@ -57,6 +34,8 @@ header {
 .nav__list {
 	display: flex;
 	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1150px;
 }
 
 .nav__logo {
@@ -78,7 +57,7 @@ header {
 	justify-content: space-between;
 	margin: 70px 20px 20px 80px;
 	max-width: 1150px;
-	margin:20px auto;
+	margin:50px auto;
 }
 
 .header__heading {
@@ -300,4 +279,22 @@ small {
 .team__name,
 .team__description {
 	text-align: center;
+}
+
+.footer__container{
+	background-color: rgb(71, 70, 70);
+	color: rgb(255, 255, 255);
+}
+
+.footer__logo{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+	height:70px;
+	flex-direction: row-reverse;
+}
+
+.footer__copyrights{
+	font-weight: 500;
 }
